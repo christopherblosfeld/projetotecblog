@@ -1,0 +1,128 @@
+body {
+    background-color: #DCDCDC;
+}
+
+#conteudo {
+    background: #F5F5F5;
+    border: 0px solid red;
+    float: none;
+    
+}
+
+#menu {
+    background: #F7b600;
+    /*border: 1px solid blue;*/
+    text-align: center;
+    padding: 15px;  
+    position: relative; 
+}
+
+#postagens {
+    color:#DAA520;
+    padding: -10px;
+    margin-left: 10px;
+    position: absolute;
+    z-index: 2;
+}
+
+#rodape {
+    background:rgb(128, 126, 126);
+    color: white;
+    clear: both;
+    text-align: center;
+    padding: 10px;
+    margin-top: 2350px;
+}
+
+.titulo {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.tituloPostagem {
+    margin-top: 10px;
+    width: 610px;
+    border: 0px solid gray;
+    margin-left: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.barrasLaterais {
+    margin-top: 20px;
+    
+}
+
+.barraLateral1 {
+    border: 0px solid gray;
+    float: right;
+    margin-top: 25px;
+    position: absolute;
+    z-index: 1;
+    margin-left: 750px;
+    padding: 10px 5px;
+    width: 200px;
+}
+
+.barraLateral2 {
+    border: 0px solid gray;
+    float: right;
+    margin-top: 320px;
+    position: absolute;
+    z-index: 2;
+    margin-left: 750px;
+    padding: 10px 5px;
+}
+
+
+.clear {
+    clear:both
+}
+
+h1 {
+    margin-top: 5px;
+}
+
+
+h2 {
+    background:rgb(128, 126, 126);
+    color:rgb(48, 42, 42);
+    margin-top:0px;
+
+}
+
+h4 {
+    color:#EEAD2D;
+    font-size: 20px;
+    margin-bottom:0px;
+}
+
+p {
+    margin-top:3px;
+    color: rgb(48, 42, 42);
+    margin-bottom: 25px;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.linksLaterais {
+    text-decoration: none;
+    color: #DAA520;
+    font-size: 20px;
+    
+}
+
+a:active {
+    color: white;
+    
+
+}
+
+#menu a:hover {
+    color: #DAA520;
+    background: white;
+}
